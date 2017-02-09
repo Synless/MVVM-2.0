@@ -1,0 +1,79 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LTR_01.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="sizeDB100" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">13</Value>
+    </Setting>
+    <Setting Name="sizeDB101" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">496</Value>
+    </Setting>
+    <Setting Name="sizeDB200" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">99</Value>
+    </Setting>
+    <Setting Name="SizeDB201" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">232</Value>
+    </Setting>
+    <Setting Name="sizeDB202" Type="System.String" Scope="User">
+      <Value Profile="(Default)">11</Value>
+    </Setting>
+    <Setting Name="PathRig" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Documents\LTR\LTR01\LTR_01\LTR_01\bin\Debug</Value>
+    </Setting>
+    <Setting Name="PathCallMag" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Documents\LTR\LTR01\LTR_01\LTR_01\bin\Debug\Process1.xls</Value>
+    </Setting>
+    <Setting Name="Admin" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AdminPwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">123</Value>
+    </Setting>
+    <Setting Name="PLCAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.0.1</Value>
+    </Setting>
+    <Setting Name="RigNo" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SizeList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;DN2&lt;/string&gt;
+  &lt;string&gt;DN3&lt;/string&gt;
+  &lt;string&gt;DN6&lt;/string&gt;
+  &lt;string&gt;DN10&lt;/string&gt;
+  &lt;string&gt;DN15&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="OperatorList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Toto&lt;/string&gt;
+  &lt;string&gt;Tata&lt;/string&gt;
+  &lt;string&gt;Tutu&lt;/string&gt;
+  &lt;string&gt;Tete&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="AdminList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Elchinger&lt;/string&gt;
+  &lt;string&gt;Saunier&lt;/string&gt;
+  &lt;string&gt;Scherrer&lt;/string&gt;
+  &lt;string&gt;Tuaillon&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="red" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="green" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">LimeGreen</Value>
+    </Setting>
+    <Setting Name="yellow" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Gold</Value>
+    </Setting>
+    <Setting Name="blue" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">DodgerBlue</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

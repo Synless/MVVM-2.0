@@ -1,0 +1,50 @@
+﻿<Window x:Class="LTR_01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LTR_01"
+        xmlns:vm="clr-namespace:LTR_01.ViewModel"
+        xmlns:v="clr-namespace:LTR_01.View.Controls"
+        xmlns:settings="clr-namespace:LTR_01.Properties"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="440" Width="600" MinHeight="440" MinWidth="600" WindowStartupLocation="CenterScreen">    
+    <UserControl>
+        <UserControl.Resources>
+            <Thickness x:Key="StatusBarHeight" Left="0" Top="0" Right="0" Bottom="30" />
+
+        </UserControl.Resources>
+        <Grid>
+            <TabControl SelectedIndex="{Binding SelectedIndex}" Name="tabControl1" Margin="{StaticResource StatusBarHeight}">
+                <TabItem Name="tabItemStart">
+                <TabItem.Header>
+                    <TextBlock Margin="10,8,10,8" Text="Start"/>
+                </TabItem.Header>    
+                
+            </TabItem>
+                <TabItem Name="tabItemPassword">
+                <TabItem.Header>
+                        <TextBlock Margin="10,8,10,8" Text="Password"/>
+                </TabItem.Header>
+                <Viewbox StretchDirection="Both" Stretch="Uniform">
+                    <v:Password/>
+                </Viewbox>
+            </TabItem>
+            <TabItem Name="tabItemHMI">
+                <TabItem.Header>
+                        <TextBlock Margin="10,8,10,8"  Text="HMI"/>                    
+                </TabItem.Header>
+                <Viewbox StretchDirection="Both" Stretch="Uniform">
+                    <v:HMIView/>
+                </Viewbox>
+            </TabItem>
+        </TabControl>
+            <StatusBar Height="30" VerticalAlignment="Bottom">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="10,0,10,0" Text="{Binding StatusText}" />
+                </StackPanel>
+            </StatusBar>
+        </Grid>        
+    </UserControl>    
+</Window>
