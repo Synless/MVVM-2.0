@@ -68,7 +68,7 @@ namespace LTR_01.ViewModel
                 TOR.Add(new VanneTOR());
             }
             REG.Add(new VanneREG());        
-            Excel();          
+            //Excel();          
               
         }
         private void Excel()
